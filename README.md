@@ -1,5 +1,3 @@
-Here's a **10x mission statement** for TechPrane's initiative to donate software applications for free:  
-
 ---
 
 ### **TechPrane’s Mission: Empowering Communities Through Free Software**  
