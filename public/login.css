@@ -1,0 +1,154 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #F4F4F4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login Container */
+.login-container {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    border-top: 5px solid #1C9953; /* Green ZESCO accent */
+}
+
+/* Logo */
+.logo {
+    width: 90px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Headings */
+h2 {
+    font-size: 26px;
+    color: #004B87; /* ZESCO Blue */
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Form Fields */
+label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    width: calc(100% - 30px);
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+    border-color: #1C9953; /* Green Focus */
+    outline: none;
+}
+
+/* Password Wrapper */
+.password-wrapper {
+    position: relative;
+}
+
+.password-wrapper input {
+    width: calc(100% - 30px);
+}
+
+.password-wrapper button {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #444;
+}
+
+/* Login Button */
+button.login-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background: #1C9953; /* ZESCO Green */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+button.login-button:hover {
+    background: #147a3c;
+}
+
+/* Remember Me */
+label.remember-me {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+label.remember-me input {
+    margin-right: 10px;
+}
+
+/* Forgot Password */
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #F59D33; /* ZESCO Orange */
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* Error Message */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .login-container {
+        width: 85%;
+    }
+
+    input, button {
+        font-size: 14px;
+    }
+
+    .password-wrapper button {
+        font-size: 14px;
+    }
+}

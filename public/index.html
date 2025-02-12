@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crime & Outage Reporter</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+
+<body>
+
+    <header>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <!-- <img src="../images/zesco.png" alt="Zesco Logo" class="logo"> -->
+        <h1>📍 Report an Incident</h1>
+        <h3>A Donation from TechPrane</h3>
+        <nav>
+            <button class="logout-button" onclick="logoutUser()">Logout</button>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div id="map"></div>
+    </main>
+
+</body>
+
+</html>

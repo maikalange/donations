@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Crime & Outage Reporter</title>
+    <link rel="stylesheet" href="login.css">
+    <script defer src="login.js"></script>
+</head>
+<body>
+    <div class="login-container">
+        <!-- <img src="../images/zesco.png" alt="App Logo" class="logo"> -->
+        <h2>Crime & Outage Reporter</h2>
+        <h3>Login</h3>
+        <form id="loginForm">
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Enter username" required>
+
+            <label for="password">Password</label>
+            <div class="password-wrapper">
+                <input type="password" id="password" placeholder="Enter password" required>
+                <button type="button" id="togglePassword" aria-label="Show Password">👁️</button>
+            </div>
+
+            <label class="remember-me">
+                <input type="checkbox" id="rememberMe">Remember Me
+            </label>
+
+            <button type="submit" class="login-button">Login</button>
+
+            <p id="error-message" class="error-message"></p>
+            <a href="/forgot-password" class="forgot-password">Forgot Password?</a>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "reports": [
+    {
+      "category": "crime",
+      "type": "theft",
+      "location": { "type": "Point", "coordinates": [-0.1278, 51.5074] },
+      "timestamp": "2025-02-10T10:00:00Z"
+    },
+    {
+      "category": "outage",
+      "type": "blackout",
+      "location": { "type": "Point", "coordinates": [-0.142, 51.514] },
+      "reference": "OUT-78965",
+      "timestamp": "2025-02-10T12:30:00Z"
+    }
+  ]
+}
